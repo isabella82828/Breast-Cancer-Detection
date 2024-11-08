@@ -12,9 +12,9 @@ The best-performing model was a customized version of the __VGG16 architecture__
 - __Training Strategy:__ Utilized early stopping to prevent overfitting, with hyperparameter tuning for optimal performance.
 
 ## Conclusions 
-- 🔍 __Model Performance:__ The customized VGG16 model achieved an accuracy of 87% on the test set and an AUC (Area Under the Curve) of 0.933, surpassing benchmarks and demonstrating reliable diagnostic capabilities.
-- 🩺 __Clinical Relevance:__ Sensitivity was prioritized over specificity to minimize false negatives, which is critical in breast cancer detection. The chosen threshold maximized clinical benefits, increasing true positive rates at the cost of a controlled increase in false positives.
-- 💡__Model Strengths:__ This project balanced model development and clinical analysis effectively, identifying a robust model while considering real-world medical application needs.
+- __🔍 Model Performance:__ The customized VGG16 model achieved an accuracy of 87% on the test set and an AUC (Area Under the Curve) of 0.933, surpassing benchmarks and demonstrating reliable diagnostic capabilities.
+- __🩺 Clinical Relevance:__ Sensitivity was prioritized over specificity to minimize false negatives, which is critical in breast cancer detection. The chosen threshold maximized clinical benefits, increasing true positive rates at the cost of a controlled increase in false positives.
+- __💡 Model Strengths:__ This project balanced model development and clinical analysis effectively, identifying a robust model while considering real-world medical application needs.
 
 ## Future Imrpovements
 - __Categorical Classification:__ Extend the model to predict BI-RADS scores, providing more detailed classifications beyond binary outputs. This could include adding an explanatory component that highlights why a specific score was assigned, increasing transparency and trust among radiologists.
