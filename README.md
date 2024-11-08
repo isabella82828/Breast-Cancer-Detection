@@ -16,6 +16,6 @@ The best-performing model was a customized version of the __VGG16 architecture__
 - __🩺 Clinical Relevance:__ Sensitivity was prioritized over specificity to minimize false negatives, which is critical in breast cancer detection. The chosen threshold maximized clinical benefits, increasing true positive rates at the cost of a controlled increase in false positives.
 - __💡 Model Strengths:__ This project balanced model development and clinical analysis effectively, identifying a robust model while considering real-world medical application needs.
 
-## Future Imrpovements
+## Future Improvements
 - __Categorical Classification:__ Extend the model to predict BI-RADS scores, providing more detailed classifications beyond binary outputs. This could include adding an explanatory component that highlights why a specific score was assigned, increasing transparency and trust among radiologists.
 - __Enhanced Features:__ Integrate additional patient data such as breast tissue density, which plays a crucial role in breast cancer assessment. Including such features could significantly boost the model’s accuracy.
