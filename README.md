@@ -1,4 +1,4 @@
-# Breast Cancer Detection
+# Breast Cancer Detection - Deep Learning
 
 ## Project Overview
 Breast cancer is a significant health issue, with early detection being crucial for improving survival rates. This project focuses on developing a deep learning algorithm to support radiologists in analyzing mammographic images, reducing false negatives, and enhancing diagnostic accuracy. The primary goal is to assist in distinguishing between pathological and non-pathological cases, thereby improving the effectiveness of mammography as a screening tool. The project used the DDSM (Digital Database for Screening Mammography) dataset, which includes labeled images of calcifications and masses, categorized into benign, malignant, and non-pathological findings.
